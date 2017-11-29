@@ -1,14 +1,113 @@
+
 body{
-  background-color: #fff;
+
 }
+
+nav {
+  border: 1px solid red;
+  top : 42px;
+  left : 0;
+}
+
 header{
-  background-image: url(image/bg-img-01.jpg);
-  min-height: 90vh;
+  background-image: url(image/header-img.png);
+  min-height: 60vh;
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
 }
+
+.menu {
+  position: fixed;
+	z-index: 10;
+  font-family: Montserrat;
+  font-size: 0.6em;
+  font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.menu__item {
+	position: relative;
+	display: block;
+	outline: none;
+	margin: 0 0 1.5em;
+	line-height: 1;
+}
+
+.menu__item-name,
+.menu__item-label {
+	position: relative;
+	display: inline-block;
+}
+
+.menu__item-name {
+	font-size: 1.25em;
+}
+
+.menu__item-label {
+	margin: 0 0 0 0.5em;
+}
+
+.section1{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+margin-left: 350px;
+margin-right: 350px;
+  line-height: 400%;
+  columns: 2;
+}
+
+.id{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+margin-left: 350px;
+margin-right: 350px;
+  line-height: 400%;
+  columns: 2;
+}
+
+.section2{
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+margin-left: 350px;
+margin-right: 350px;
+  line-height: 400%;
+  columns: 2;
+}
+
+h1{
+  font-family: Montserrat;
+  font-size: 1.5em;
+  font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+h2{
+font-family: Montserrat:400;
+font-size: 2em;
+}
+
+h3{
+font-family: Montserrat:300;
+font-size: 0.7em;
+line-height: 150%;
+}
+
+
 section{
   min-height: 50vh;
   border: 1px solid #000;
+}
+
+footer{
+  background-color: #fff;
+  color: #fff;
+  padding: 2em;
+}
+
+p{
+  line-height: 1em;
+  font-size: 200;
 }
